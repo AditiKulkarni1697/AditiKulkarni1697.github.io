@@ -62,7 +62,7 @@ var typed = new Typed(".auto-type", {
 });
 
 
-GitHubCalendar(".calendar", "nish-026", { responsive: true });
+GitHubCalendar(".calendar", "aditikulkarni1697", { responsive: true });
 
 
 // Toggle the visibility of the menu on hamburger click
