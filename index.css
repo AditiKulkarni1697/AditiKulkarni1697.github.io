@@ -59,7 +59,7 @@ body{
 }
 
 nav {
-   margin-top: 5px; 
+   margin-top: 5px;           /* here */
    margin-left: 200px; 
   /* border: 1px solid red; */
   width: 65%;
