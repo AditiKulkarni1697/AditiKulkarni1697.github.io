@@ -793,6 +793,13 @@ label svg {
 #skills-container img {
   border-radius: 6px;
   width: 100%;
+  height: 100%;
+}
+
+#skills-card-img{
+ height: 2rem;
+ width: 2rem;
+ 
 }
 
 .sk-title {
