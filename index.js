@@ -62,3 +62,20 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("scrolled");
   }
 });
+
+document.querySelectorAll(".download").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const fileURL = "./file/Aditi_Sujlegaonkar_Resume.pdf";
+        
+        // Open in new tab
+        window.open(fileURL, "_blank");
+        
+        // Trigger download
+        const a = document.createElement("a");
+        a.href = fileURL;
+        a.download = "./file/Aditi_Sujlegaonkar_Resume.pdf";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    });
+});
